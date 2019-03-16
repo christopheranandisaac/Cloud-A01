@@ -1,0 +1,27 @@
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Add GPU</title>
+</head>
+<body>
+	<br /> Below enter your GPU details into the system
+	<br />
+	<br>
+	<form method="post" action="/add">
+		Name:<input type="text" name="users_name" /> <br />
+		Manufacturer:<input type="text" name="users_manufacturer" /> <br />
+		Dated Issued:<input type="date" name="users_date_issued" /> <br />
+		<input type="checkbox" name="users_geometry_shader" />Geometry Shader <br />
+		<input type="checkbox" name="users_tesselation_shader" />Tesselation Shader <br />
+		<input type="checkbox" name="users_shaderInt16" />ShaderInt16<br />
+		<input type="checkbox" name="users_sparse_binding" />Sparse Binding <br />
+		<input type="checkbox" name="users_texture_compressionETC2" />Texture CompressionETC2 <br />
+		<input type="checkbox" name="users_vertex_pipeline_stores and atomics" />Vertex Pipeline Stores and Atomics <br />
+
+		<input type="submit" value="update" name="button"/>
+		<input type="submit" value="cancel" name="cancel"/>
+
+	</form>
+
+</body>
+</html>
